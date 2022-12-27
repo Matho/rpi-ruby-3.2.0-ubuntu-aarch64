@@ -18,9 +18,9 @@ RUN apt-get update \
                 git \
 	&& rm -rf /var/lib/apt/lists/*
 
-ENV RUBY_MAJOR 3.1
-ENV RUBY_VERSION 3.1.2
-ENV RUBY_DOWNLOAD_SHA256 61843112389f02b735428b53bb64cf988ad9fb81858b8248e22e57336f24a83e
+ENV RUBY_MAJOR 3.2
+ENV RUBY_VERSION 3.2.0
+ENV RUBY_DOWNLOAD_SHA256 daaa78e1360b2783f98deeceb677ad900f3a36c0ffa6e2b6b19090be77abc272
 
 # some of ruby's build scripts are written in ruby
 # we purge this later to make sure our final image uses what we just built
